@@ -25,7 +25,10 @@ SECRET_KEY = 'v=e417*za!+-3o15f!51fe$ck$%65mp@vc$s&9zb8%_s8p=$37'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['veradesc.pythonanywhere.com']
+ALLOWED_HOSTS = [
+'veradesc.pythonanywhere.com'
+'127.0.0.1'
+]
 
 
 # Application definition
